@@ -272,11 +272,11 @@ public class ExperimentalWindow extends JFrame implements ControllerListener, UG
                 controlContextTabbedPaneComponentShown(evt);
             }
         });
-        controlContextTabbedPane.addTab("Machine Control", actionPanel);
+        controlContextTabbedPane.addTab("Machinex s Control", actionPanel);
 
         macroEditPanel.setViewportView(macroSettingsPanel);
 
-        controlContextTabbedPane.addTab("Macros", macroEditPanel);
+        controlContextTabbedPane.addTab("Macros d", macroEditPanel);
         controlContextTabbedPane.addTab("Visualizer", visualizerPanel);
 
         connectionPanel.setMinimumSize(new java.awt.Dimension(1, 1));
