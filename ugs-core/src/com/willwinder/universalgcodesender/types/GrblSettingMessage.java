@@ -90,7 +90,7 @@ $132=200.000 (z max travel, mm)
     public String toString() {
         String descriptionStr = "";
         if (!StringUtils.isEmpty(description)) {
-            if (!StringUtils.isEmpty(units)) {
+            if (!StringUtils.isEmpty(units)){
                 descriptionStr = " (" + shortDescription + ", " + units + ")";
             } else {
                 descriptionStr = " (" + description + ")";
